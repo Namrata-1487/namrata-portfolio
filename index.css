@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    /* overflow: hidden; */
+
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.animate {
+    font-size: 90px;
+    animation-name: SlideInTop;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    z-index: 1;
+}
+
+
+.card1 {
+
+    display: block;
+    margin-left: 150px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    color: red;
+
+}
+
+.tansition {
+    opacity: 0;
+    font-size: 90px;
+    position: relative;
+    text-align: start;
+    cursor: pointer;
+    font-weight: 800l;
+    margin-left: 50px;
+}
+
+.about {
+    right: 230px;
+}
+
+.work {
+    right: 200px;
+}
+
+.contact {
+    right: 370px;
+}
+
+.hello {
+    animation-iteration-count: 1;
+    color: white;
+}
+
+.self {
+    animation-delay: 1s;
+    color: red;
+}
+
+.name {
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    color: red;
+}
+
+.animate:hover {
+    opacity: 0;
+    z-index: -1;
+}
+
+.animate:hover + .tansition {
+    opacity: 1;
+    z-index: 1;
+}
+
+@keyframes SlideInTop {
+    0% {
+        transform: translateY(1000px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* about page  */
+.container1 {
+    display: flex;
+    float: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.container:before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.heading {
+    font-size: 90px;
+    margin: 20px;
+    animation-name: SlideInBottom;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    z-index: 1;
+    position: relative;
+    transition: ease-in 1s;
+    color: red;
+}
+
+.info {
+    animation-name: SlideInBottom;
+    animation-duration: 3s;
+    animation-delay: 0.7s;
+    animation-fill-mode: both;
+    padding: 20px;
+    font-size: 20px;
+}
+
+@keyframes SlideInBottom {
+    0% {
+        transform: translatex(-200%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.info p:nth-child(1) {
+    display: block;
+}
+
+.fullname {
+    font-size: large;
+    color: rgb(201, 201, 67);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.resume {
+    margin: 0;
+    padding: 0;
+}
+
+.resume:hover {
+    margin-left: 20px;
+    transition: margin-left 1s ease-in;
+}
+
+/* work */
+.work {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.work h1 {
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.work a {
+    font-size: 40px;
+    animation: display 1s ease 1;
+}
+
+.testing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.testing h1 {
+    animation: translate 1s ease;
+    transition: 3s ease;
+    animation-delay: 0s;
+    text-align: center;
+}
+
+.one {
+    opacity: 0;
+    animation: fadeIn;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+.two {
+    opacity: 0;
+    animation: fadeIn;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+
+.development {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.development h1 {
+    animation: translate 1s ease;
+    animation-delay: 0;
+    text-align: center;
+}
+
+.three {
+    opacity: 0;
+    animation: fadeIn;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+
+.four {
+    opacity: 0;
+    animation: fadeIn;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+
+.five {
+    opacity: 0;
+    animation: fadeIn;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 6s;
+}
+
+@keyframes translate {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+}
+
+/* contact page  */
+.container2 {
+    display: flex;
+    float: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 80px;
+}
+
+.links {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mailto-message {
+    display: none;
+    position: absolute;
+    transform: translate(15%, -280%);
+    width: auto;
+    white-space: nowrap;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 2px;
+    text-wrap: wrap;
+    width: 30%;
+}
+
+.mailto-message:after {
+    border-bottom: 15px solid white;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    z-index: -1;
+    height: 0;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 20%;
+    content: "";
+    display: block;
+
+}
+
+.mailto-link:hover + .mailto-message {
+    display: block;
+}
+
+@keyframes slideIn {
+    from {
+        padding-left: 0;
+    }
+
+    to {
+        padding-left: 50px;
+    }
+}

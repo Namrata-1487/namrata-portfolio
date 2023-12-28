@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Contact</title>
+</head>
+
+<div class="container2">
+    <h1 class="heading">Contact</h1>
+    <div class="info">
+        <p>I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them.
+            I want to bring my collective design experience to the table where we can work together to solve real
+            business-problems in a way that optimizes all of our respective experience and knowledge.</p>
+        <p>
+            I want to avoid subjective pissing-matches, and favor open-minded collaborators where egos are out of the
+            equation.
+            If that all sounds about right, then lets for sure chat about how we can work together.
+        </p>
+        <p>
+            Feel free to reach out through any platforms bellow:
+        </p>
+    </div>
+    <div class="links">
+        <!-- <div class="email"> -->
+        <p>
+            <a class="mailto-link">namrata.shirsaat@gmail.com</a>
+            <span class="mailto-message">Click to copy email address</span>
+        </p>
+        <!--</div> -->
+        <a href="https://www.linkedin.com/in/namrata-shirsat-7b540a296/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Namrata-1487" target="_blank">GitHub</a>
+        <a href="https://app.netlify.com/teams/lp321/sites" target="_blank">Netlify</a>
+    </div>
+</div>
+<script>
+    let mailtolink = document.getElementsByClassName("mailto-link");
+    let message = document.getElementsByClassName("mailto-message");
+    mailtolink.addEventListener("click", () => {
+        navigator.clipboard.writeText()
+            .then(message => {
+                console.log("email coppied")
+            })
+            .catch(err => {
+                console.error('Failed to read clipboard contents: ', err);
+            });
+
+    });
+</script>
+</body>
+
+</html>
