@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  width: 25rem;
+  color: black;
+  padding: 30px 20px 50px 20px;
+  border-radius: 10px;
+  position: relative !important;
+  max-height: 100vh;
+}
+
+
+
+.card img {
+  margin-top: -30%;
+  width: 80%;
+  border-radius: 20px;
+}
+
+
+.card h3 {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card .btnn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.col6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #1a1a1a;
+  color: #f0f0f0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #222;
+  border-radius: 20px;
+}
+
+.section {
+  padding: 60px 20px;
+  margin: 40px 20px;
+  background-color: #2a2a2a !important;
+  border-radius: 20px;
+
+}
+
+.carousel-wrapper {
+  padding: 0 0 5rem 0;
+  width: 80%;
+  margin: auto;
+
+}
+
+.about-section {
+  padding: 80px 20px;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.carousel-section {
+  padding: 18rem 5rem 8rem 5rem;
+}

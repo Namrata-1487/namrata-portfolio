@@ -1,0 +1,34 @@
+.game-navbar {
+  position: fixed;
+  top: 0;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  background: linear-gradient(to right, #1a1a1a, #333);
+  padding: 10px 0;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0 0 10px #00ffc8;
+}
+
+.game-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.game-navbar a {
+  text-decoration: none;
+  color: #00ffc8;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.game-navbar a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #00ffc8;
+}
