@@ -1,5 +1,4 @@
 {
-  "homepage": ".",
   "name": "namrata-portfolio-2",
   "version": "0.1.0",
   "private": true,
@@ -27,6 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "build:gh": "PUBLIC_URL=https://Namrata-1487.github.io/namrata-portfolio react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
