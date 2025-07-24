@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.3fc22e6d.css",
-    "main.js": "/static/js/main.c761ee22.js",
+    "main.js": "/static/js/main.ade6697f.js",
     "static/js/453.3fc7abc6.chunk.js": "/static/js/453.3fc7abc6.chunk.js",
-    "static/media/resume.png": "/static/media/resume.31fe112e54d0d5014e4f.png",
-    "static/media/landingPage.png": "/static/media/landingPage.262a5e981236e646b8ea.png",
-    "static/media/videoplayer.png": "/static/media/videoplayer.6954703847cae6cb1a91.png",
-    "static/media/palindrome.png": "/static/media/palindrome.2fe39624a0cb52a9992d.png",
-    "static/media/digital-clock.png": "/static/media/digital-clock.ec7c96693363572b6876.png",
+    "static/media/resume.jpg": "/static/media/resume.a4f4754d5bbb1fffaeec.jpg",
+    "static/media/landingPage.jpg": "/static/media/landingPage.3add3391b18656e1690d.jpg",
+    "static/media/videoplayer.jpg": "/static/media/videoplayer.39e742a36ef007dc3fc5.jpg",
     "static/media/icons8-code.gif": "/static/media/icons8-code.b6d55c08220cb38d48c2.gif",
+    "static/media/digital-clock.jpg": "/static/media/digital-clock.d639afe0587ea8b0582e.jpg",
     "index.html": "/index.html",
     "main.3fc22e6d.css.map": "/static/css/main.3fc22e6d.css.map",
-    "main.c761ee22.js.map": "/static/js/main.c761ee22.js.map",
+    "main.ade6697f.js.map": "/static/js/main.ade6697f.js.map",
     "453.3fc7abc6.chunk.js.map": "/static/js/453.3fc7abc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fc22e6d.css",
-    "static/js/main.c761ee22.js"
+    "static/js/main.ade6697f.js"
   ]
 }
