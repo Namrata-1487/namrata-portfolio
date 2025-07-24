@@ -2,10 +2,10 @@ import React from 'react';
 import { v4 as uuidv4 } from "uuid";
 import Card from "./Card";
 import Carousel from "./Carousel";
-import ResumeBuilderImg from './images/resume.png';
-import LandingPageImg from './images/landingPage.png';
-import VideoPlayerImg from './images/videoplayer.png';
-import ClockTimerImg from './images/digital-clock.png';
+import ResumeBuilderImg from './images/resume.jpg';
+import LandingPageImg from './images/landingPage.jpg';
+import VideoPlayerImg from './images/videoplayer.jpg';
+import ClockTimerImg from './images/digital-clock.jpg';
 import PalindromeCheckerImg from './images/palindrome.png';
 
 const Projects = () => {

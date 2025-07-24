@@ -2,7 +2,7 @@ import Styles from "./Card.module.css";
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Button from "./Button";
-import Githubimg from "./images/github-mark-white.png"
+import Githubimg from "../components/images/github-mark-white.png"
 import CodeImage from "./images/icons8-code.gif"
 
 
