@@ -5,7 +5,7 @@
 .vertical-navigation {
  position: fixed;
  left: 0;
- height: 100vh;
+ height: 100vh ;
  display: flex;
  align-items: center;
  justify-content: end;
@@ -19,7 +19,6 @@
 
 .vertical-navigation ul {
  position: relative;
- display: flex;
  padding: 0;
  flex-direction: column;
  align-items: flex-end;
@@ -27,8 +26,6 @@
 
 .vertical-navigation ul li {
  list-style: none;
- width: 70px;
- height: 70px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -50,13 +47,13 @@
  opacity: 1;
  color: #209cff;
  background-color: #fff;
- border: 4px solid #209cff;
+ /* border:  solid #209cff; */
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
  padding: 10px;
- border-radius: 50%;
+ border-radius: 50% 0 0 50% ;
 }
 
-.vertical-navigation .indicator {
+/* .vertical-navigation .indicator {
  position: absolute;
  width: 100%;
  height: 70px;
@@ -66,19 +63,11 @@
  border: 6px solid var(--clr);
  transition: 0.3s ease;
  pointer-events: none;
-}
+} */
 
-.indicator::before,
-.indicator::after {
- content: "";
- position: absolute;
- top: 4px;
- width: 20px;
- height: 20px;
- background: transparent;
-}
 
-.vertical-navigation .indicator::before {
+
+.vertical-navigation .icon::before {
  top: 64px;
  right: -5px;
  border-top-right-radius: 20px;

@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="container-fluid p-0 m-auto">
       <div className="row justify-content-center w-100">
-        <div className="col-lg-1 col-3">
+        <div className="col-lg-1 col-3 d-flex ">
           <Sidebar />
         </div>
         <div className="col-lg-11 col-9 p-3">
