@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.3fc22e6d.css",
-    "main.js": "./static/js/main.898ce12c.js",
-    "static/js/453.3fc7abc6.chunk.js": "./static/js/453.3fc7abc6.chunk.js",
-    "static/media/resume.png": "./static/media/resume.31fe112e54d0d5014e4f.png",
-    "static/media/landingPage.png": "./static/media/landingPage.262a5e981236e646b8ea.png",
-    "static/media/videoplayer.png": "./static/media/videoplayer.6954703847cae6cb1a91.png",
-    "static/media/palindrome.png": "./static/media/palindrome.2fe39624a0cb52a9992d.png",
-    "static/media/digital-clock.png": "./static/media/digital-clock.ec7c96693363572b6876.png",
-    "static/media/icons8-code.gif": "./static/media/icons8-code.b6d55c08220cb38d48c2.gif",
-    "index.html": "./index.html",
-    "main.3fc22e6d.css.map": "./static/css/main.3fc22e6d.css.map",
-    "main.898ce12c.js.map": "./static/js/main.898ce12c.js.map",
-    "453.3fc7abc6.chunk.js.map": "./static/js/453.3fc7abc6.chunk.js.map"
+    "main.css": "/static/css/main.3fc22e6d.css",
+    "main.js": "/static/js/main.c761ee22.js",
+    "static/js/453.3fc7abc6.chunk.js": "/static/js/453.3fc7abc6.chunk.js",
+    "static/media/resume.png": "/static/media/resume.31fe112e54d0d5014e4f.png",
+    "static/media/landingPage.png": "/static/media/landingPage.262a5e981236e646b8ea.png",
+    "static/media/videoplayer.png": "/static/media/videoplayer.6954703847cae6cb1a91.png",
+    "static/media/palindrome.png": "/static/media/palindrome.2fe39624a0cb52a9992d.png",
+    "static/media/digital-clock.png": "/static/media/digital-clock.ec7c96693363572b6876.png",
+    "static/media/icons8-code.gif": "/static/media/icons8-code.b6d55c08220cb38d48c2.gif",
+    "index.html": "/index.html",
+    "main.3fc22e6d.css.map": "/static/css/main.3fc22e6d.css.map",
+    "main.c761ee22.js.map": "/static/js/main.c761ee22.js.map",
+    "453.3fc7abc6.chunk.js.map": "/static/js/453.3fc7abc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fc22e6d.css",
-    "static/js/main.898ce12c.js"
+    "static/js/main.c761ee22.js"
   ]
 }
